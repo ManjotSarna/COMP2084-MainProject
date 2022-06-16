@@ -2,11 +2,12 @@
   "dependencies": {
     "secrets1": {
       "type": "secrets",
-      "connectionId": "VaultUri"
+      "connectionId": "VaultUri",
+      "dynamicId": null
     },
-    "mssql1": {
+    "mssql2": {
       "type": "mssql",
-      "connectionId": "ConnectionStrings:Comp2084MainProject"
+      "connectionId": "ConnectionStrings:PublishProject"
     }
   }
 }

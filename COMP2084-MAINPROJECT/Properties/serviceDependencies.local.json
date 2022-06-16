@@ -5,12 +5,6 @@
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/COMP2084WEEK4vault",
       "type": "secrets.keyVault",
       "connectionId": "VaultUri"
-    },
-    "mssql1": {
-      "secretStore": "AzureKeyVault",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/comp2084-manjot-inclass/databases/COMP2084-DB-InClass",
-      "type": "mssql.azure",
-      "connectionId": "ConnectionStrings:Comp2084MainProject"
     }
   }
 }
