@@ -43,7 +43,14 @@ namespace COMP2084_MAINPROJECT.Controllers
             }
             var recipes = _context.Recipe.Where(x => x.OriginId == id).OrderBy(recipe => recipe.Origin);
 
-            return View(origin);
+            var viewModel = new OriginViewModel()
+            {
+                Name = origin.Name,
+                Id = origin.Id,
+                Recipes = recipes.ToList()
+            };
+
+            return View(viewModel);
         }
 
         // GET: Origins/Create
@@ -166,6 +173,6 @@ namespace COMP2084_MAINPROJECT.Controllers
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<Recipe>? Cars { get; set; }
+        public ICollection<Recipe>? Recipes { get; set; }
     }
 }

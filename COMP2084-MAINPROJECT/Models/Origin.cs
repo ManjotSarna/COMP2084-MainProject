@@ -9,6 +9,6 @@ namespace COMP2084_MAINPROJECT.Models
         [Required]
         public string Name { get; set; }
 
-        public ICollection<Recipe> Recipes { get; set; }
+        public ICollection<Recipe>? Recipes { get; set; }
     }
 }

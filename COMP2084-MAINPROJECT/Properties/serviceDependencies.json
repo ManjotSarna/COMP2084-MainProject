@@ -8,6 +8,10 @@
     "mssql2": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:PublishProject"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Comp2084MainProject"
     }
   }
 }
