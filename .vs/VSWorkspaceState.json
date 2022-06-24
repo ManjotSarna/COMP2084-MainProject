@@ -5,8 +5,10 @@
     "\\COMP2084-MAINPROJECT\\Controllers",
     "\\COMP2084-MAINPROJECT\\Models",
     "\\COMP2084-MAINPROJECT\\obj",
-    "\\COMP2084-MAINPROJECT\\Properties"
+    "\\COMP2084-MAINPROJECT\\Properties",
+    "\\COMP2084-MAINPROJECT\\Views",
+    "\\COMP2084-MAINPROJECT\\Views\\Shared"
   ],
-  "SelectedNode": "\\COMP2084-MAINPROJECT\\Models",
+  "SelectedNode": "\\COMP2084-MAINPROJECT\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
