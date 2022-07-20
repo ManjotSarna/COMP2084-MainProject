@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uH5uQmwqyDoh+8VzAVmMagNMDukZGWDWQaFzJ/XIVZSez921cS2j7jFcNS6JGImEdHNiXfpT0xOKVCclihiU9w==",
+  "dgSpecHash": "A5UPY+DLnmkFiiTf2FEZeefJ90O4qe5Sc+nZVb7/gz3x7nf8LWuwtxt9RAu2hUjFpobpUQri9KYpQNlr/3MshA==",
   "success": true,
   "projectFilePath": "C:\\Users\\manjo\\source\\repos\\ManjotSarna\\COMP2084-MainProject\\COMP2084-MAINPROJECT\\COMP2084-MAINPROJECT.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\manjo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.7\\microsoft.aspnetcore.authentication.google.6.0.7.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.6\\microsoft.aspnetcore.cryptography.keyderivation.6.0.6.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.6\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.6.nupkg.sha512",

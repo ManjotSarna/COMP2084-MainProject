@@ -9,6 +9,6 @@
     "\\COMP2084-MAINPROJECT\\Views",
     "\\COMP2084-MAINPROJECT\\Views\\Shared"
   ],
-  "SelectedNode": "\\COMP2084-MAINPROJECT\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\COMP2084-MAINPROJECT\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

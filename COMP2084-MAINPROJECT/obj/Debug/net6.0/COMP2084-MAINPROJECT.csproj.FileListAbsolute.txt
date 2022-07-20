@@ -276,3 +276,4 @@ C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJEC
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Debug\net6.0\COMP2084-MAINPROJECT.pdb
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Debug\net6.0\COMP2084-MAINPROJECT.genruntimeconfig.cache
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Debug\net6.0\ref\COMP2084-MAINPROJECT.dll
+C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
