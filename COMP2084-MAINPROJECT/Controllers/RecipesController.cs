@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using COMP2084_MAINPROJECT.Data;
 using COMP2084_MAINPROJECT.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace COMP2084_MAINPROJECT.Controllers
 {
@@ -26,6 +27,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+        [Authorize]
         // GET: Recipes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -46,6 +48,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(recipe);
         }
 
+        [Authorize]
         // GET: Recipes/Create
         public IActionResult Create()
         {
@@ -56,6 +59,7 @@ namespace COMP2084_MAINPROJECT.Controllers
         // POST: Recipes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Ingredients,Process,OriginId")] Recipe recipe)
@@ -70,6 +74,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(recipe);
         }
 
+        [Authorize]
         // GET: Recipes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -123,6 +128,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(recipe);
         }
 
+        [Authorize]
         // GET: Recipes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

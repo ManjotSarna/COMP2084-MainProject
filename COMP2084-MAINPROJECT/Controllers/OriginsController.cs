@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using COMP2084_MAINPROJECT.Data;
 using COMP2084_MAINPROJECT.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace COMP2084_MAINPROJECT.Controllers
 {
@@ -27,6 +28,7 @@ namespace COMP2084_MAINPROJECT.Controllers
                           Problem("Entity set 'ApplicationDbContext.Origin'  is null.");
         }
 
+        [Authorize]
         // GET: Origins/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -53,15 +55,18 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(viewModel);
         }
 
+        [Authorize]
         // GET: Origins/Create
         public IActionResult Create()
         {
             return View();
         }
 
+
         // POST: Origins/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+      
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name")] Origin origin)
@@ -74,7 +79,8 @@ namespace COMP2084_MAINPROJECT.Controllers
             }
             return View(origin);
         }
-
+       
+        [Authorize]
         // GET: Origins/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -126,6 +132,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(origin);
         }
 
+        [Authorize]
         // GET: Origins/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
