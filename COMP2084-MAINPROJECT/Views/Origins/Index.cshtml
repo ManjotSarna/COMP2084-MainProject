@@ -1,4 +1,7 @@
 ﻿@model IEnumerable<COMP2084_MAINPROJECT.Models.Origin>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Recipe Origin";
@@ -20,16 +23,20 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
+       
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
+            @if(SignInManager.IsSignedIn(User)){
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">EDIT</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">DETAILS</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">DELETE</a>
             </td>
+            }
         </tr>
+       
 }
     </tbody>
 </table>

@@ -1,4 +1,7 @@
 ﻿@model IEnumerable<COMP2084_MAINPROJECT.Models.Recipe>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "BigChef!";
@@ -42,11 +45,14 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Origin.Name)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">EDIT</a> 
-                <a asp-action="Details" asp-route-id="@item.Id">DETAILS</a> 
-                <a asp-action="Delete" asp-route-id="@item.Id">DELETE</a>
-            </td>
+                @if (SignInManager.IsSignedIn(User))
+                {
+                 <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">EDIT</a> 
+                    <a asp-action="Details" asp-route-id="@item.Id">DETAILS</a> 
+                    <a asp-action="Delete" asp-route-id="@item.Id">DELETE</a>
+                </td>
+            }
         </tr>
 }
     </tbody>

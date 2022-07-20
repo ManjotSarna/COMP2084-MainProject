@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace COMP2084_MAINPROJECT.Controllers
 {
+    [Authorize]
     public class OriginsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +21,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         // GET: Origins
         public async Task<IActionResult> Index()
         {
@@ -28,7 +30,6 @@ namespace COMP2084_MAINPROJECT.Controllers
                           Problem("Entity set 'ApplicationDbContext.Origin'  is null.");
         }
 
-        [Authorize]
         // GET: Origins/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -55,7 +56,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(viewModel);
         }
 
-        [Authorize]
         // GET: Origins/Create
         public IActionResult Create()
         {
@@ -80,7 +80,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(origin);
         }
        
-        [Authorize]
         // GET: Origins/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -132,7 +131,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(origin);
         }
 
-        [Authorize]
         // GET: Origins/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {

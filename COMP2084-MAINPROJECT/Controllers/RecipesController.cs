@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace COMP2084_MAINPROJECT.Controllers
 {
+    [Authorize]
     public class RecipesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +21,7 @@ namespace COMP2084_MAINPROJECT.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         // GET: Recipes
         public async Task<IActionResult> Index()
         {
@@ -27,7 +29,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        [Authorize]
         // GET: Recipes/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -48,7 +49,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(recipe);
         }
 
-        [Authorize]
         // GET: Recipes/Create
         public IActionResult Create()
         {
@@ -74,7 +74,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(recipe);
         }
 
-        [Authorize]
         // GET: Recipes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -128,7 +127,6 @@ namespace COMP2084_MAINPROJECT.Controllers
             return View(recipe);
         }
 
-        [Authorize]
         // GET: Recipes/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
