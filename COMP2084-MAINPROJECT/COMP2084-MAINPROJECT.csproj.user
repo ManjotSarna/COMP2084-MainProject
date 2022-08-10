@@ -11,6 +11,6 @@
     <WebStackScaffolding_DbContextTypeFullName>COMP2084_MAINPROJECT.Data.ApplicationDbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\Properties\PublishProfiles\COMP2084-MAINPROJECT20220615221910 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>COMP2084-MAINPROJECT20220615221910 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

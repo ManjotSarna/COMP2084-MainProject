@@ -12,6 +12,7 @@ C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJEC
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\Humanizer.dll
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\MessagePack.dll
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
+C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\manjo\source\repos\ManjotSarna\COMP2084-MainProject\COMP2084-MAINPROJECT\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

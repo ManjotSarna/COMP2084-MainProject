@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A5UPY+DLnmkFiiTf2FEZeefJ90O4qe5Sc+nZVb7/gz3x7nf8LWuwtxt9RAu2hUjFpobpUQri9KYpQNlr/3MshA==",
+  "dgSpecHash": "I47YuZhED5/08tebX11Uo+jKIJ8cxVibllTIqqifOhkL0Dj6OQlcenK7YA6vKq5cqYIw5Yq4RjOVWDIu1vtq2A==",
   "success": true,
   "projectFilePath": "C:\\Users\\manjo\\source\\repos\\ManjotSarna\\COMP2084-MainProject\\COMP2084-MAINPROJECT\\COMP2084-MAINPROJECT.csproj",
   "expectedPackageFiles": [
@@ -193,7 +193,14 @@
     "C:\\Users\\manjo\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\manjo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\manjo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\manjo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit.analyzers\\1.0.0\\xunit.analyzers.1.0.0.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit.assert\\2.4.2\\xunit.assert.2.4.2.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\manjo\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }
